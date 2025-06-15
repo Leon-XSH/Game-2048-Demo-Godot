@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccwscfa57x3rw"]
+
+[ext_resource type="Texture2D" uid="uid://b1jaagjmbnusm" path="res://assets/2 Tile.png" id="1_u3rlp"]
+[ext_resource type="Script" uid="uid://ba0tfhr4a6hrx" path="res://sized_sprite_2d.gd" id="2_nl06m"]
+
+[node name="NumCell" type="Sprite2D"]
+scale = Vector2(0.625, 0.625)
+texture = ExtResource("1_u3rlp")
+script = ExtResource("2_nl06m")
+width = 80.0
+height = 80.0
+metadata/_custom_type_script = "uid://ba0tfhr4a6hrx"

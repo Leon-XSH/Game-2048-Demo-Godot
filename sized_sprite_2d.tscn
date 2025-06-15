@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://btpjuwp2xt2jm"]
+
+[ext_resource type="Script" uid="uid://ba0tfhr4a6hrx" path="res://sized_sprite_2d.gd" id="1_r2cem"]
+
+[node name="SizedSprite2D" type="Sprite2D"]
+script = ExtResource("1_r2cem")
+
+[connection signal="texture_changed" from="." to="." method="_on_texture_changed"]

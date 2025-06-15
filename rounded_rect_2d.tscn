@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://slpojd3tjx7c"]
+
+[ext_resource type="Script" uid="uid://dm2nilejtky23" path="res://rounded_rect_2d.gd" id="1_o2yab"]
+
+[node name="RoundedRect2D" type="Node2D"]
+script = ExtResource("1_o2yab")
+color = Color(0, 0, 0, 0.439216)
